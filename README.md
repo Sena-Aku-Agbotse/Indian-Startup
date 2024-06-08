@@ -1,4 +1,4 @@
-# Indian-Startup Funding Analysis Project**
+# **Indian-Startup Funding Analysis Project**
 
 
 # **Project Objective**
@@ -72,4 +72,4 @@ GitHub: To access the 2018 dataset and manage version control for any scripts or
 Jupyter Notebook: For interactive data analysis and sharing insights through well-documented notebooks.
 
 
-# *Technical Content**
+# **Technical Content**
