@@ -101,14 +101,42 @@ Here,we summarized the main characteristics of all the datasets from 2018 to 202
  **Cleaning all columns**
 
  1. Amount column
- - Here, we remove all unwanted symbols,change column from object to float and fill in null values.
+ - Here, we remove all unwanted symbols
+ - Change column from object to float 
+ - Fill in null values.
 
- *Screenshot
- ![screenshot of the application](images/Screenshot%202024-06-10%20164458.png)
 
  2. Founded column
+ - Covert this column to numeric
+ - Fill null values with interpolate method
+ - Convert to datetime
+ - Convert to period
 
 
+ 3. Founders column
+ - Take out unwanted symbols
+ - Check for Nan values
+
+
+ 4. Headquarter column
+ - Check and  drop duplicates
+ 
+
+ 5. Sector column
+ - Standardize the names of sectors
+ - Check for information
+
+
+ **Hypothesis testing**
+ - We extract only the 'sector' and 'amount' columns from our dataset.
+ - Remove any rows with missing values
+ - Group data by sector and perform one-way ANOVA test to see if the amount of funding depends on the sector.
+ - Set a threshold(0.5) to decide if the result is statistically significant.
+ - Interpret and print out the result.
+ 
+
+ **Answering analytical questions**
+ - We explored our data and answered our questions based on that.
 
 
 
@@ -126,7 +154,7 @@ Keep an eye on trends in mature startups in the 'Others' category, indicating in
 Diversify investments across locations and sectors to achieve a balanced risk-return profile.
 
 # **Appreciation**
-I highly recommend Azubi Africa for their comprehensive and effective programs.
+I highly recommend Azubi Africa for their comprehensive and effective programs and our able intstructors.
 
 
 
