@@ -23,11 +23,13 @@ Alternative Hypothesis (H1) – The funds a company receives depends on the sect
 
 
 **Business Questions**
-1.	Does the location of a start-up influence/determine the sector? 
-2.	Which industries have received the most funding in each year, and how has this distribution changed over time? 
-3.	What is the distribution of funding amounts among start-ups (e.g., average, median, and range) each year? 
-4.	What are the average funding amounts for different funding stages (e.g., Seed, Series A, Series B, etc.) each year? 
+1. What are the top five(5) attractive sectors?
+2. How does funding vary with the location of start-ups? 
+3. What are the average funding amounts for different funding stages(e.g, Seed, Series A, Series B etc).
+4. What is the total funding amounts per sector?
 5.	How does funding vary within the various geographical locations for start-ups?
+
+
 
 
 **Deliverables**
@@ -73,6 +75,7 @@ Jupyter Notebook: For interactive data analysis and sharing insights through wel
 
 
 # **Technical Content**
+
 
 # **Recommendations/Conclusion**
 1.Location Focus:
