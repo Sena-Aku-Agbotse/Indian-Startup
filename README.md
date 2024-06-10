@@ -102,8 +102,10 @@ Here,we summarized the main characteristics of all the datasets from 2018 to 202
 
  1. Amount column
  - Here, we remove all unwanted symbols,change column from object to float and fill in null values.
+
+ *Screenshot
+ ![screenshot of the application](images/Screenshot%202024-06-10%20164458.png)
  
- ![alt text](image.png)
 
 
 
