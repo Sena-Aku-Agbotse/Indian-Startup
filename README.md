@@ -76,6 +76,37 @@ Jupyter Notebook: For interactive data analysis and sharing insights through wel
 
 # **Technical Content**
 
+**Exploratory Data Analysis(EDA)**
+Here,we summarized the main characteristics of all the datasets from 2018 to 2021. This was done to understand patterns,check assumptions,detect anomalies and test our hypothesis.
+
+1. We imported our data from various sources(GitHub repository and CSV files)
+
+2. We previewed the rows and columns and went ahead to check for information on the various datasets.
+
+3. We checked for the datatypes of each column.
+
+4. We further checked for missing and duplicated values.
+ 
+ - Some key issues were observed after going through with this EDA,they are:
+
+ - Different currencies in amounts.
+ - Column inconsistencies and irrelevant columns.
+ - Missing data.
+ - Inconsistent values in categorical features.
+
+ **Data Cleaning and Preparation**
+
+ - Convert Indian Rupees to dollars,add the years each dataset was collected. We then merge the columns and rename the columns. Cleaning begins from here on.
+
+ **Cleaning all columns**
+
+ 1. Amount column
+ - Here, we remove all unwanted symbols,change column from object to float and fill in null values.
+ 
+ ![alt text](image.png)
+
+
+
 
 # **Recommendations/Conclusion**
 1.Location Focus:
